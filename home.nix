@@ -1,5 +1,5 @@
 {
-# Configure the user using home manager
+  # Configure the user using home manager
   users.users.lillian.isNormalUser = true;
   users.users.lillian.extraGroups = [ "sudo" "networkmanager" "wheel" "vboxsf" ];
   home-manager.useUserPackages = true;
@@ -19,7 +19,7 @@
         vscode-extensions.arrterian.nix-env-selector
 
       # Chat applications:
-        #element-desktop
+        element-desktop
         webcord-vencord
 
       # Gaming:
@@ -80,5 +80,5 @@
       #./plasma.nix
       #~/.config/home-manager/zsh.nix
       ];
-};
+  };
 }

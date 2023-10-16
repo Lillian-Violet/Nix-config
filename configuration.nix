@@ -6,10 +6,9 @@
 
 {
   imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
+    [ 
       # Include home manager
-      <home-manager/nixos>
+      #<home-manager/nixos>
     ];
 
   # Bootloader.
@@ -103,10 +102,7 @@
     #  thunderbird
     #];
   #};
-  
-  
-  
-  
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
