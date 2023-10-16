@@ -59,6 +59,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    alejandra
     home-manager
     pciutils
     libsForQt5.discover
