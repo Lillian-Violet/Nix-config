@@ -49,6 +49,7 @@
 
   home = {
     username = "lillian";
+    name = "Lillian Violet";
     homeDirectory = "/home/lillian";
   };
 
@@ -57,54 +58,54 @@
   # home.packages = with pkgs; [ steam ];
 
   home.packages = with pkgs; [
-      # Coding:
-        git
-        kate
-        vscodium
-        vscode-extensions.arrterian.nix-env-selector
-        vscode-extensions.jnoortheen.nix-ide
-        vscode-extensions.kamadorueda.alejandra
-        vscode-extensions.ms-toolsai.jupyter
-        vscode-extensions.ms-python.python
-        vscode-extensions.rust-lang.rust-analyzer
-        
-      # Chat applications:
-        element-desktop
-        webcord-vencord
+    # Coding:
+    git
+    kate
+    vscodium
+    vscode-extensions.arrterian.nix-env-selector
+    vscode-extensions.jnoortheen.nix-ide
+    vscode-extensions.kamadorueda.alejandra
+    vscode-extensions.ms-toolsai.jupyter
+    vscode-extensions.ms-python.python
+    vscode-extensions.rust-lang.rust-analyzer
 
-      # Gaming:
-        prismlauncher
-        steam
+    # Chat applications:
+    element-desktop
+    webcord-vencord
 
-      # Multimedia:
-        freetube
-        obs-studio
-        vlc
+    # Gaming:
+    prismlauncher
+    steam
 
-      # Office applications:
-        onlyoffice-bin
+    # Multimedia:
+    freetube
+    obs-studio
+    vlc
 
-      # System tools:
-        bitwarden
-        discover
-        flameshot
-        nextcloud-client
-        nitrokey-app
-        protonvpn-gui
-        virtualbox
-        qbittorrent
-        zsh
+    # Office applications:
+    onlyoffice-bin
 
-      # Web browsing:
-        firefox
-        ungoogled-chromium
-    ];
+    # System tools:
+    bitwarden
+    discover
+    flameshot
+    nextcloud-client
+    nitrokey-app
+    protonvpn-gui
+    virtualbox
+    qbittorrent
+    zsh
+
+    # Web browsing:
+    firefox
+    ungoogled-chromium
+  ];
 
   # Enable home-manager and git
   programs.home-manager.enable = true;
   programs.git = {
     enable = true;
-    userName  = "Lillian Violet";
+    userName = "Lillian Violet";
     userEmail = "git@gladtherescake.eu";
   };
 

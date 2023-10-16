@@ -26,7 +26,7 @@
   ];
 
   home-manager = {
-    extraSpecialArgs = { inherit inputs outputs; };
+    extraSpecialArgs = {inherit inputs outputs;};
     users = {
       # Import your home-manager configuration
       lillian = import ../home-manager/home.nix;
@@ -162,7 +162,7 @@
   };
 
   # Enable completion of system packages by zsh
-  environment.pathsToLink = [ "/share/zsh" ];
+  environment.pathsToLink = ["/share/zsh"];
 
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
   system.stateVersion = "unstable";
