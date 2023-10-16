@@ -155,6 +155,7 @@
 
   users.users = {
     lillian = {
+      name = "Lillian Violet Oostrom";
       isNormalUser = true;
       # openssh.authorizedKeys.keys = [];
       extraGroups = ["sudo" "networkmanager" "wheel" "vboxsf"];

@@ -49,7 +49,6 @@
 
   home = {
     username = "lillian";
-    name = "Lillian Violet";
     homeDirectory = "/home/lillian";
   };
 
