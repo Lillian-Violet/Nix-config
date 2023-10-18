@@ -92,6 +92,7 @@
     nitrokey-app
     protonvpn-gui
     virtualbox
+    watchmate
     qbittorrent
     zsh
 
