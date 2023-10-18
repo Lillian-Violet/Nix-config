@@ -60,7 +60,7 @@
     # Coding:
     git
     kate
-    vscodium
+    vscodium-fhs
     vscode-extensions.arrterian.nix-env-selector
     vscode-extensions.jnoortheen.nix-ide
     vscode-extensions.kamadorueda.alejandra
