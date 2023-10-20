@@ -111,7 +111,7 @@
     userEmail = "git@gladtherescake.eu";
   };
 
-  programs.vscodium-fhs = {
+  programs.vscode = {
     enable = true;
     extensions = with pkgs.vscode-extensions; [
       dracula-theme.theme-dracula
