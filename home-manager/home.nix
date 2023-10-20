@@ -50,6 +50,7 @@
   home = {
     username = "lillian";
     homeDirectory = "/home/lillian";
+    shell = pkgs.zsh;
   };
 
   # Add stuff for your user as you see fit:

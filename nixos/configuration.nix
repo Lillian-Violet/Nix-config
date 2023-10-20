@@ -160,7 +160,6 @@
       isNormalUser = true;
       # openssh.authorizedKeys.keys = [];
       extraGroups = ["sudo" "networkmanager" "wheel" "vboxsf"];
-      shell = pkgs.zsh;
     };
   };
 
