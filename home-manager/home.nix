@@ -111,6 +111,20 @@
     userEmail = "git@gladtherescake.eu";
   };
 
+  programs.vscodium-fhs = {
+    enable = true;
+    extensions = with pkgs.vscode-extensions; [
+      dracula-theme.theme-dracula
+      arrterian.nix-env-selector
+      jnoortheen.nix-ide
+      kamadorueda.alejandra
+      ms-toolsai.jupyter
+      ms-python.python
+      rust-lang.rust-analyzer
+      yzhang.markdown-all-in-one
+    ];
+  };
+
   programs.zsh = {
     enable = true;
     enableAutosuggestions = true;
