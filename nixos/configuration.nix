@@ -72,6 +72,7 @@
     oh-my-zsh
     pciutils
     wget
+    zsh
   ];
 
   nix = {
@@ -160,6 +161,7 @@
       isNormalUser = true;
       # openssh.authorizedKeys.keys = [];
       extraGroups = ["sudo" "networkmanager" "wheel" "vboxsf"];
+      shell = pkgs.zsh;
     };
   };
 
