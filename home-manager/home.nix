@@ -70,6 +70,7 @@
 
     # Chat applications:
     element-desktop
+    signal-desktop
     webcord-vencord
 
     # Gaming:
