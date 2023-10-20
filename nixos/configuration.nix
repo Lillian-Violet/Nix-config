@@ -71,6 +71,7 @@
     noisetorch
     oh-my-zsh
     pciutils
+    rsync
     wget
     zsh
   ];
