@@ -107,7 +107,6 @@
     enable = true;
     userName = "Lillian Violet";
     userEmail = "git@gladtherescake.eu";
-    shell = pkgs.zsh;
   };
 
   programs.zsh = {
