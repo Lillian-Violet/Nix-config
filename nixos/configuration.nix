@@ -60,6 +60,7 @@
 
   environment.systemPackages = with pkgs; [
     alejandra
+    git-filter-repo
     home-manager
     libsForQt5.discover
     libsForQt5.kdepim-addons
