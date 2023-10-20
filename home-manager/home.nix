@@ -114,7 +114,6 @@
       kamadorueda.alejandra
       ms-toolsai.jupyter
       ms-python.python
-      ruby0b.pride-themes
       rust-lang.rust-analyzer
       yzhang.markdown-all-in-one
     ];
