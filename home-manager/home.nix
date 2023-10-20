@@ -88,6 +88,7 @@
     bitwarden
     discover
     flameshot
+    fzf
     nextcloud-client
     nitrokey-app
     protonvpn-gui
