@@ -60,13 +60,6 @@
     # Coding:
     git
     kate
-    vscodium-fhs
-    vscode-extensions.arrterian.nix-env-selector
-    vscode-extensions.jnoortheen.nix-ide
-    vscode-extensions.kamadorueda.alejandra
-    vscode-extensions.ms-toolsai.jupyter
-    vscode-extensions.ms-python.python
-    vscode-extensions.rust-lang.rust-analyzer
 
     # Chat applications:
     element-desktop
