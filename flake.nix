@@ -1,5 +1,5 @@
 {
-  description = "My laptop configuration for NixOS";
+  description = "Your new nix config";
 
   inputs = {
     # Nixpkgs
@@ -13,7 +13,7 @@
     home-manager.url = "github:nix-community/home-manager/master";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
-    #hardware.url = "github:nixos/nixos-hardware";
+    hardware.url = "github:nixos/nixos-hardware";
 
     # Shameless plug: looking for a way to nixify your themes and make
     # everything match nicely? Try nix-colors!
