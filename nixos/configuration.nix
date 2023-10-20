@@ -61,14 +61,16 @@
   environment.systemPackages = with pkgs; [
     alejandra
     home-manager
-    pciutils
     libsForQt5.discover
+    libsForQt5.kdepim-addons
     libsForQt5.packagekit-qt
     libportal-qt5
     noto-fonts
     noto-fonts-emoji-blob-bin
     noto-fonts-emoji
     noisetorch
+    oh-my-zsh
+    pciutils
     wget
   ];
 
