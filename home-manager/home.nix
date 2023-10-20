@@ -109,6 +109,76 @@
     userEmail = "git@gladtherescake.eu";
   };
 
+  programs.zsh = {
+    enableAutosuggestions = true;
+    enableCompletion = true;
+    historySubstringSearch.enable = true;
+    syntaxHighlighting.enable = true;
+    zsh-abbr.enable = true;
+    oh-my-zsh = {
+      enable = true;
+      plugins = [
+        "git"
+        "adb"
+        "battery"
+        "branch"
+        "coffee"
+        "colored-man-pages"
+        "colorize"
+        "command-not-found"
+        "common-aliases"
+        "compleat"
+        "composer"
+        "copypath"
+        "copybuffer"
+        "copyfile"
+        "cp"
+        "dirhistory"
+        "dirpersist"
+        "docker"
+        "docker-compose"
+        "extract"
+        "fancy-ctrl-z"
+        "fastfile"
+        "frontend-search"
+        "git-auto-fetch"
+        "git-escape-magic"
+        "git-extras"
+        "git-flow"
+        "github"
+        "gitignore"
+        "gnu-utils"
+        "gpg-agent"
+        "history"
+        "history-substring-search"
+        "isodate"
+        "jsontools"
+        "keychain"
+        "man"
+        "nanoc"
+        "pip"
+        "pipenv"
+        "pyenv"
+        "python"
+        "rsync"
+        "rvm"
+        "screen"
+        "sdk"
+        "sfdx"
+        "shell-proxy"
+        "sudo"
+        "systemadmin"
+        "systemd"
+        "themes"
+        "urltools"
+        "web-search"
+        "zsh-interactive-cd"
+        "zsh-navigation-tools"
+      ];
+      theme = "jtriley";
+    };
+  };
+
   # Nicely reload system units when changing configs
   systemd.user.startServices = "sd-switch";
 
