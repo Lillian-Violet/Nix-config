@@ -68,10 +68,12 @@
     in {
       EDI = nixpkgs.lib.nixosSystem {
         specialArgs = {inherit inputs outputs;};
-        modules = [
-          # > Our main nixos configuration file <
-          ./nixos/EDI/configuration.nix
-        ];
+        modules =
+          defaultModules
+          ++ [
+            # > Our main nixos configuration file <
+            ./nixos/EDI/configuration.nix
+          ];
       };
     };
 
