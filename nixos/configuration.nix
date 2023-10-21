@@ -59,6 +59,10 @@
     };
   };
 
+  environment.interactiveShellInit = ''
+    alias nix-update = 'su lillian && cd /home/lillian/Coding/Nix-config/ && git add . && git push -m \" automatic update \" && sleep 1 && exit && cd /etc/nixos && git pull && nixos-rebuild --flake .# build'
+  '';
+
   environment.systemPackages = with pkgs; [
     rage
     alejandra
