@@ -60,7 +60,7 @@
   };
 
   environment.systemPackages = with pkgs; [
-    age
+    rage
     alejandra
     git-filter-repo
     home-manager
