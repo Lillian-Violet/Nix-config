@@ -61,7 +61,6 @@
     # Available through 'nixos-rebuild --flake .#your-hostname'
     nixosConfigurations = let
       defaultModules = [
-        home-manager.nixosModules.default
         sops-nix.nixosModules.sops
       ];
       specialArgs = {inherit inputs outputs;};
