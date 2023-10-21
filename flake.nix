@@ -59,13 +59,18 @@
 
     # NixOS configuration entrypoint
     # Available through 'nixos-rebuild --flake .#your-hostname'
-    nixosConfigurations = {
+    nixosConfigurations = let
+      defaultModules = [
+        home-manager.nixosModules.default
+        sops-nix.nixosModules.sops
+      ];
+      specialArgs = {inherit inputs outputs;};
+    in {
       EDI = nixpkgs.lib.nixosSystem {
         specialArgs = {inherit inputs outputs;};
         modules = [
           # > Our main nixos configuration file <
-          ./nixos/configuration.nix
-          sops-nix.nixosModules.sops
+          ./nixos/EDI/configuration.nix
         ];
       };
     };
