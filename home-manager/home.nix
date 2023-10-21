@@ -48,11 +48,11 @@
   };
 
   home = {
-    shellAliases = {
-      nix-update = "su lillian && cd /home/lillian/Coding/Nix-config/ && git add . && git push -m " automatic update " && sleep 1 && exit && cd /etc/nixos && git pull && nixos-rebuild --flake .# build";
-    };
     username = "lillian";
     homeDirectory = "/home/lillian";
+    shellAliases = {
+      "nix-update" = "su lillian && cd /home/lillian/Coding/Nix-config/ && git add . && git push -m " automatic update " && sleep 1 && exit && cd /etc/nixos && git pull && nixos-rebuild --flake .# build";
+    };
   };
 
   # Add stuff for your user as you see fit:
