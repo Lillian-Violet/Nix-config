@@ -164,10 +164,6 @@
     enable = true;
   };
 
-  programs.age = {
-    enable = true;
-  };
-
   users.users = {
     lillian = {
       isNormalUser = true;
