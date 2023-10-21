@@ -79,6 +79,7 @@
     onlyoffice-bin
 
     # System tools:
+    age
     bitwarden
     discover
     flameshot
